@@ -1,0 +1,13 @@
+[monitor] watching live.log from byte 60
+[monitor] WARN    [WARN] [DatabasePool] Connection pool at 90% capacity
+[monitor] ERROR   [ERROR] [PaymentService] Payment gateway returned HTTP 502
+[monitor] ERROR   [ERROR] [DatabasePool] Database connection timeout after 5012 ms
+[monitor] ERROR   [ERROR] [PaymentService] Payment gateway returned HTTP 502
+[monitor] *** ALERT: 3 errors within 3000 ms ***
+[monitor] ERROR   [ERROR] [PaymentService] Payment gateway returned HTTP 502
+[monitor] stopped. Live summary:
+Total lines : 8
+Level counts: {ERROR=4, INFO=3, WARN=1}
+Top 3 errors (TreeMap order):
+        3  Payment gateway returned HTTP #
+        1  Database connection timeout after # ms

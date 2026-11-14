@@ -1,0 +1,5 @@
+lines,sizeMB,io_ms,files_ms,channel_basic_ms,channel_fast_ms,identical
+250000,17.6,50,66,95,75,true
+500000,35.1,92,94,136,102,true
+1000000,70.3,188,183,249,162,true
+2000000,140.5,376,385,513,365,true

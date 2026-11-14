@@ -1,0 +1,10 @@
+Total lines : 2000000
+Level counts: {DEBUG=60168, ERROR=200337, INFO=1439681, WARN=299814}
+Top 7 errors (TreeMap order):
+    60128  Database connection timeout after # ms
+    43857  NullPointerException in OrderProcessor.process
+    36047  Payment gateway returned HTTP #
+    28272  Failed to acquire lock on inventory item #
+    17919  Authentication failed for user id #
+     7984  OutOfMemoryError: Java heap space
+     6130  Disk quota exceeded on volume /data
